@@ -1,0 +1,8 @@
+name: Use Shared Build Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  call-shared-workflow:
+    uses: turbo5000c/am-reuseable-workflow/.github/workflows/main.yml@main
