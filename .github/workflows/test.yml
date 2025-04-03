@@ -1,4 +1,4 @@
-name: Use Shared Build Workflow
+name: Test
 
 on:
   workflow_dispatch:
