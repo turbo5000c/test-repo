@@ -1,0 +1,11 @@
+name: Reusable Build Workflow
+
+on:
+  workflow_call:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        run: echo "running rebuild"
