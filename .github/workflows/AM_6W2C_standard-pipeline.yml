@@ -1,4 +1,4 @@
-name: 6W2C Pipeline
+name: WN8M Pipeline
 
 on:
   workflow_dispatch:
@@ -8,11 +8,10 @@ on:
       - 'renovate.json'
       - 'README.md'
     branches:
-      - 'main'
       - 'develop'
       - 'feat/**'
   
 jobs:
   build:
-    uses: turbo5000c/am-reuseable-workflow/.github/workflows/AM_6W2C_main-workflow.yml@main
+    uses: turbo5000c/am-reuseable-workflow/.github/workflows/AM_WN8M_main-workflow.yml@main
     secrets: inherit
